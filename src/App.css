@@ -1,9 +1,27 @@
 body{
-  margin: 0
+  margin: 0;
+  padding: 0;
 }
 #root{
   height: 100vh;
   width: 100vw;
+}
+
+div.img-div {
+  text-align: center;
+}
+
+div h1 {
+  border: 1px grey solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 2em 13em;
+  background-color: rgb(18, 64, 189);
+  color: #fff;
+}
+
+img {
+  border-radius: 50px;
 }
 
 .app{
